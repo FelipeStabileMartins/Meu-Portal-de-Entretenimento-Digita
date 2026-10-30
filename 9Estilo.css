@@ -1,0 +1,60 @@
+
+/* Cor de fundo da página */
+body{ 
+background-color: black; 
+} 
+/* Organização das três colunas com Flexbox */
+.principal { 
+width: 100%; 
+display: flex; 
+flex-direction: wrap; 
+gap: 20px;
+} 
+/* Formatação das colunas */
+.coluna1, .coluna2, .coluna3{ 
+flex: 1;    
+align-items: center; 
+margin: 1%;
+text-align: left; 
+color: white;
+} 
+/* Cores de fundo individuais para cada coluna */
+.coluna1 { 
+    background-color: black; 
+} 
+.coluna2 { 
+    background-color: black; 
+} 
+.coluna3 { 
+    background-color: black; 
+}
+/* Distribuição do espaço das colunas */
+.coluna1{ 
+flex-grow: 1; 
+} 
+.coluna2{ 
+flex-grow: 1; 
+} 
+.coluna3{ 
+flex-grow: 1; 
+} 
+/* Tamanho das imagens */
+img{ 
+width: 100%; 
+margin: 1.5%; 
+} 
+/* Formatação dos títulos */
+h1{ 
+text-align:center; 
+color: cyan; 
+font-size: 4.5em; 
+} 
+/* Formatação do título principal pelo ID */
+#titulo-principal {
+    color: rgb(201, 117, 78);
+    text-align: center;
+}
+/* Cor dos links */
+a:link, a:visited{ 
+color: hsl(246, 75%, 42%); 
+} 
